@@ -15,8 +15,8 @@
 ## 🛠 Technologies used
 - Next.js
 - React
+  - React Bootstrap
 - SASS/SCSS
-- Bootstrap
 - Javascript
 
 ---
