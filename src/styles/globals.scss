@@ -7,3 +7,91 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
+
+html, main{
+  background-color: $pw-bg-dog;
+}
+
+.container-fluid{
+  max-width: 1360px;
+}
+
+.pw-color{
+  &__text{
+    &__green{
+      color: $pw-green;
+    }
+    &__green-light{
+      color: $pw-green-light;
+    }
+    &__green-lighter{
+      color: $pw-green-lighter;
+    }
+    &__green-dark{
+      color: $pw-green-dark;
+    }
+    &__green-darker{
+      color: $pw-green-darker;
+    }
+    &__black{
+      color: $pw-black;
+    }
+    &__grey{
+      color: $pw-grey;
+    }
+    &__positive{
+      color: $pw-positive;
+    }
+    &__warning{
+      color: $pw-warning;
+    }
+    &__alert{
+      color: $pw-alert;
+    }
+  }
+
+  &__bg{
+    &__dog{
+      background-color: $pw-bg-dog;
+    }
+    &__green{
+      background-color: $pw-green;
+    }
+    &__green-light{
+      background-color: $pw-green-light;
+    }
+    &__green-lighter{
+      background-color: $pw-green-lighter;
+    }
+    &__green-dark{
+      background-color: $pw-green-dark;
+    }
+    &__green-darker{
+      background-color: $pw-green-darker;
+    }
+    &__black{
+      background-color: $pw-black;
+    }
+    &__grey{
+      background-color: $pw-grey;
+    }
+    &__positive{
+      background-color: $pw-positive;
+    }
+    &__positive-light{
+      background-color: $pw-positive-light;
+    }
+    &__warning{
+      background-color: $pw-warning;
+    }
+    &__warning-light{
+      background-color: $pw-warning-light;
+    }
+    &__alert{
+      background-color: $pw-alert;
+    }
+    &__alert-light{
+      background-color: $pw-alert-light;
+    }
+  }
+}

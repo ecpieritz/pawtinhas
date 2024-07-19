@@ -9,8 +9,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <title>Pawtinhas</title>
       </Head>
+
       <main>
-        <h1 className="text-primary">Funciona o Bootstrap!</h1>
+        <div className="container-fluid">
+        <h1 className="pw-color__text__green">Funciona o H1!</h1>
+        <h2 className="pw-color__text__green-light">Funciona o H2!</h2>
+        <h3 className="pw-color__text__green-lighter">Funciona o H3!</h3>
+        <h4 className="pw-color__text__positive">Funciona o H4!</h4>
+        <h5 className="pw-color__text__warning">Funciona o H5!</h5>
+        <h6 className="pw-color__text__green-dark">Funciona o H6!</h6>
+        <p className="pw-color__text__black">Funciona o Texto!</p>
+        </div>
       </main>
     </>
   );
