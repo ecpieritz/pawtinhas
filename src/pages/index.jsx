@@ -1,6 +1,5 @@
 import Head from "next/head";
 
-
 export default function Home() {
   return (
     <>
@@ -11,7 +10,7 @@ export default function Home() {
         <title>Pawtinhas</title>
       </Head>
       <main>
-        Funciona!
+        <h1 className="text-primary">Funciona o Bootstrap!</h1>
       </main>
     </>
   );
